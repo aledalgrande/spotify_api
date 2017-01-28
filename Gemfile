@@ -7,6 +7,7 @@ git_source(:github) do |repo_name|
 end
 
 gem 'active_model_serializers', '~> 0.10.4'
+gem 'airbrake', '~> 5.4'
 gem 'oj', '~> 2.18', '>= 2.18.1'
 gem 'rails', '~> 5.0.1'
 gem 'pg', '~> 0.19.0'
