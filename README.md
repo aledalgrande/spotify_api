@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## API
 
-Things you may want to cover:
+### Artist list
 
-* Ruby version
+/api/v1/artists?query=drake&offset=50
 
-* System dependencies
+Request a list of artists with a query. Optional offset to get further results.
 
-* Configuration
+### Favorites
 
-* Database creation
+/api/v1/artists/{spotify_id}
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Requests, saves and returns a favorite artist. Favorites are saved in the database (only once).
