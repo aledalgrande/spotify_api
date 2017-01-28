@@ -1,5 +1,21 @@
 # README
 
+## Development
+
+Development requires a postgres installation on the dev machine.
+
+To deploy add the heroku git remote:
+
+```
+heroku git:remote -a spotify-api-90
+```
+
+and run:
+
+```
+git push heroku master
+```
+
 ## API
 
 ### Artist list
